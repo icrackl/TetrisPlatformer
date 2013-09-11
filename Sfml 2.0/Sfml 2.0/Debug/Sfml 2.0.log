@@ -1,0 +1,89 @@
+﻿Build started 9/8/2013 9:03:04 PM.
+     1>Project "C:\Users\Ian\documents\visual studio 2012\Projects\Sfml 2.0\Sfml 2.0\Sfml 2.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Ian\Desktop\LaurentGomila-SFML-86897a8\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Main.cpp Map.cpp Piece.cpp Player.cpp Sblock.cpp Stick.cpp Tblock.cpp Zblock.cpp normalL.cpp reverseL.cpp
+         reverseL.cpp
+         normalL.cpp
+         Zblock.cpp
+         Tblock.cpp
+         Stick.cpp
+         Sblock.cpp
+         Player.cpp
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(76): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(77): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(78): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(79): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(95): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(96): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(97): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(98): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(118): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(126): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(136): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(147): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\player.cpp(163): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         Piece.cpp
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\piece.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\piece.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\piece.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\piece.cpp(62): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\piece.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\piece.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+         Map.cpp
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\map.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\map.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\map.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+         Game.cpp
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(9): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(10): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(12): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(13): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(15): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(16): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(16): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(18): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(19): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(59): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(122): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(138): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(150): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(153): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(172): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(218): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(219): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(221): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(249): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(255): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(263): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(275): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(286): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(333): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(334): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(351): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(352): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(379): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(380): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(381): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ian\documents\visual studio 2012\projects\sfml 2.0\sfml 2.0\game.cpp(382): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ian\documents\visual studio 2012\Projects\Sfml 2.0\Debug\Sfml 2.0.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Ian\Desktop\Builds\lib\Debug "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ian\documents\visual studio 2012\Projects\Sfml 2.0\Debug\Sfml 2.0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ian\documents\visual studio 2012\Projects\Sfml 2.0\Debug\Sfml 2.0.lib" /MACHINE:X86 Debug\Block.obj
+         Debug\Game.obj
+         Debug\Main.obj
+         Debug\Map.obj
+         Debug\normalL.obj
+         Debug\Piece.obj
+         Debug\Player.obj
+         Debug\reverseL.obj
+         Debug\Sblock.obj
+         Debug\Square.obj
+         Debug\Stick.obj
+         Debug\Tblock.obj
+         Debug\Zblock.obj
+         Sfml 2.0.vcxproj -> C:\Users\Ian\documents\visual studio 2012\Projects\Sfml 2.0\Debug\Sfml 2.0.exe
+     1>Done Building Project "C:\Users\Ian\documents\visual studio 2012\Projects\Sfml 2.0\Sfml 2.0\Sfml 2.0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:36.87

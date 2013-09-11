@@ -1,0 +1,110 @@
+﻿Build started 4/14/2013 12:53:20 PM.
+     1>Project "C:\Users\Ian\Documents\Visual Studio 2012\Projects\Sfml 2.0\Sfml 2.0\Sfml 2.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Ian\Desktop\LaurentGomila-SFML-86897a8\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug Static\\" /Fd"Debug Static\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ian\Documents\Visual Studio 2012\Projects\Sfml 2.0\Debug Static\Sfml 2.0.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Ian\Desktop\Builds\lib\Debug "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ian\Documents\Visual Studio 2012\Projects\Sfml 2.0\Debug Static\Sfml 2.0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ian\Documents\Visual Studio 2012\Projects\Sfml 2.0\Debug Static\Sfml 2.0.lib" /MACHINE:X86 "Debug Static\Main.obj"
+     1>sfml-graphics-s-d.lib(Color.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(Shape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(CircleShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(RenderStates.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(Transform.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(View.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(Shader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(Image.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(Transformable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(VertexArray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(TextureSaver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(VideoMode.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(Window.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(GlContext.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(WindowImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(WglContext.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(JoystickManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-system-s-d.lib(String.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>sfml-system-s-d.lib(ThreadLocal.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::_Container_base12::_Container_base12(void)" (??0_Container_base12@std@@QAE@XZ) already defined in sfml-graphics-s-d.lib(RenderTarget.obj)
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::_Container_base12::~_Container_base12(void)" (??1_Container_base12@std@@QAE@XZ) already defined in sfml-graphics-s-d.lib(RenderTarget.obj)
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) already defined in sfml-graphics-s-d.lib(RenderTarget.obj)
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::locale::id::id(unsigned int)" (??0id@locale@std@@QAE@I@Z) already defined in sfml-graphics-s-d.lib(RenderTarget.obj)
+     1>libcpmtd.lib(ios.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "public: static void __cdecl std::ios_base::_Addstd(class std::ios_base *)" (?_Addstd@ios_base@std@@SAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base *)" (?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z) already defined in msvcprtd.lib(locale0_implib.obj)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPAV_Locimp@12@_N@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPAV12@PBD@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(locale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(xlock.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z) already defined in msvcprtd.lib(MSVCP110D.dll)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(xlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>libcpmtd.lib(xdateord.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Main.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetCheckCount already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __calloc_dbg already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __free_dbg already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtSetUnhandledExceptionFilter already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtTerminateProcess already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtUnhandledException already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(dbghook.obj) : error LNK2005: __crt_debugger_hook already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(wsetloca.obj) : error LNK2005: __configthreadlocale already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(invarg.obj) : error LNK2005: __invalid_parameter already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(invarg.obj) : error LNK2005: __invoke_watson already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(lconv.obj) : error LNK2005: _localeconv already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __amsg_exit already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __cexit already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __exit already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __initterm_e already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: _exit already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(mlock.obj) : error LNK2005: __lock already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(mlock.obj) : error LNK2005: __unlock already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(winxfltr.obj) : error LNK2005: __XcptFilter already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(errmode.obj) : error LNK2005: ___set_app_type already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(getenv.obj) : error LNK2005: _getenv already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(hooks.obj) : error LNK2005: "void __cdecl terminate(void)" (?terminate@@YAXXZ) already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xi_a already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xi_z already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xc_a already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xc_z already defined in MSVCRTD.lib(cinitexe.obj)
+     1>LIBCMTD.lib(sprintf.obj) : error LNK2005: _sprintf already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(sprintf.obj) : error LNK2005: _sprintf_s already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(dbgrptw.obj) : error LNK2005: __CrtDbgReportW already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(strtol.obj) : error LNK2005: _strtol already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(fflush.obj) : error LNK2005: _fflush already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(_file.obj) : error LNK2005: ___iob_func already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(_file.obj) : error LNK2005: __lock_file already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(_file.obj) : error LNK2005: __unlock_file already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LIBCMTD.lib(tolower.obj) : error LNK2005: _tolower already defined in MSVCRTD.lib(MSVCR110D.dll)
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\Users\Ian\Documents\Visual Studio 2012\Projects\Sfml 2.0\Debug Static\Sfml 2.0.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\Ian\Documents\Visual Studio 2012\Projects\Sfml 2.0\Sfml 2.0\Sfml 2.0.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:20.67
